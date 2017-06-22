@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"  
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee   
+          http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"  
+          version="3.0" id="WebApp_1448282801402">  
+ 
+	
+	
+	
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <servlet-class>servlet.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminAddServlet</servlet-name>
+    <servlet-class>servlet.AdminAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseAddServlet</servlet-name>
+    <servlet-class>servlet.CourseAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClassAddServlet</servlet-name>
+    <servlet-class>servlet.ClassAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PwdUpdateServlet</servlet-name>
+    <servlet-class>servlet.PwdUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>studentInfoServlet</servlet-name>
+    <servlet-class>servlet.studentInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RemoveServlet</servlet-name>
+    <servlet-class>servlet.RemoveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegServlet</servlet-name>
+    <servlet-class>servlet.RegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateServlet</servlet-name>
+    <servlet-class>servlet.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DelServlet</servlet-name>
+    <servlet-class>servlet.DelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>VerifyServlet</servlet-name>
+    <servlet-class>servlet.VerifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SportsgradeServlet</servlet-name>
+    <servlet-class>servlet.SportsgradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>IntellectualgradeServlet</servlet-name>
+    <servlet-class>servlet.IntellectualgradeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EvaluatingAddServlet</servlet-name>
+    <servlet-class>servlet.EvaluatingAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExamineServlet</servlet-name>
+    <servlet-class>servlet.ExamineServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShuchuServlet</servlet-name>
+    <servlet-class>servlet.shuchuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>yuanjingjihuaServlet</servlet-name>
+    <servlet-class>servlet.yuanjingjihuaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AllClassInfoServlet</servlet-name>
+    <servlet-class>servlet.AllClassInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ClassScoreServlet</servlet-name>
+    <servlet-class>servlet.counsellor.ClassScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>counsellor_UploadScoreServlet</servlet-name>
+    <servlet-class>servlet.counsellor.UploadScoreServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UploadRatingServlet</servlet-name>
+    <servlet-class>servlet.counsellor.UploadRatingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PieChartServlet</servlet-name>
+    <servlet-class>servlet.PieChartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>StuWarningServlet</servlet-name>
+    <servlet-class>servlet.admin.stuWarning.StuWarningServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CourseServlet</servlet-name>
+    <servlet-class>servlet.counsellor.CourseServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ExportExcel</servlet-name>
+    <servlet-class>servlet.counsellor.ExportExcel</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminLoginServlet</servlet-name>
+    <url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>studentInfoServlet</servlet-name>
+    <url-pattern>/studentInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminAddServlet</servlet-name>
+    <url-pattern>/AdminAddServlet</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>ClassAddServlet</servlet-name>
+    <url-pattern>/ClassAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseAddServlet</servlet-name>
+    <url-pattern>/CourseAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PwdUpdateServlet</servlet-name>
+    <url-pattern>/PwdUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RemoveServlet</servlet-name>
+    <url-pattern>/RemoveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegServlet</servlet-name>
+    <url-pattern>/RegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelServlet</servlet-name>
+    <url-pattern>/DelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateServlet</servlet-name>
+    <url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerifyServlet</servlet-name>
+    <url-pattern>/VerifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SportsgradeServlet</servlet-name>
+    <url-pattern>/SportsgradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IntellectualgradeServlet</servlet-name>
+    <url-pattern>/IntellectualgradeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EvaluatingAddServlet</servlet-name>
+    <url-pattern>/EvaluatingAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExamineServlet</servlet-name>
+    <url-pattern>/ExamineServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/Upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShuchuServlet</servlet-name>
+    <url-pattern>/Shuchu</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>yuanjingjihuaServlet</servlet-name>
+    <url-pattern>/yuanjingjihuaServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AllClassInfoServlet</servlet-name>
+    <url-pattern>/AllClassInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ClassScoreServlet</servlet-name>
+    <url-pattern>/ClassScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>counsellor_UploadScoreServlet</servlet-name>
+    <url-pattern>/counsellor/UploadScoreServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadRatingServlet</servlet-name>
+    <url-pattern>/counsellor/UploadRatingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PieChartServlet</servlet-name>
+    <url-pattern>/servlet/PieChartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuWarningServlet</servlet-name>
+    <url-pattern>/servlet/admin/StuWarningServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseServlet</servlet-name>
+    <url-pattern>/servlet/counsellor/CourseServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportExcel</servlet-name>
+    <url-pattern>/servlet/counsellor/ExportExcel</url-pattern>
+  </servlet-mapping>
+  
+  
+  <!-- Struts2配置 -->  
+  <filter>  
+    <filter-name>struts2</filter-name>  
+    <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>  
+  </filter>  
+  <filter-mapping>  
+    <filter-name>struts2</filter-name>  
+    <url-pattern>*.action</url-pattern>  
+  </filter-mapping>  
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

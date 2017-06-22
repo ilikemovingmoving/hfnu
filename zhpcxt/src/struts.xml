@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE struts PUBLIC  
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"  
+    "http://struts.apache.org/dtds/struts-2.3.dtd">  
+    <struts>  
+  <constant name="struts.multipart.maxSize" value="104857600"/> 
+  
+        <package name="student" extends="struts-default" namespace="/">  
+            <action name="student_*" class="action.StudentAction" method="{1}">  
+                <result>/counsellor/studentInfoUpload.jsp</result>  
+                <result name="query" type="chain">query</result>  
+                <result name="situation">/zhpcxt/secretary/situation.jsp</result>  
+            </action>  
+            <action name="query" class="action.StudentAction" method="query">  
+                <result>/counsellor/studentInfoUpload.jsp</result>  
+            </action>  
+            <action name="class_*" class="action.ClassAction" method="{1}">  
+                <result>/admin/AllClassInfo.jsp</result>  
+            </action>  
+            <action name="user_*" class="action.UserAction" method="{1}">  
+                <result>/admin/systemuser.jsp</result>  
+            </action>  
+            <action name="export_*" class="action.ExportAction" method="{1}">  
+                <result name="stuWarning">/admin/stuWarning.jsp</result>  
+            </action>  
+        </package>  
+    </struts> 
